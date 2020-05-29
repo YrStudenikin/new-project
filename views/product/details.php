@@ -4,6 +4,8 @@
 /* @var $product Product */
 
 
+$this->title = $product->title;
+
 use yii\bootstrap4\Html;
 use app\models\Product;
 ?>
@@ -29,5 +31,7 @@ use app\models\Product;
         </div>
     </div>
 </div>
+
+
 
 

@@ -11,7 +11,7 @@ body {
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    padding: 40px 15px 20px;
 }
 
 .footer {
@@ -112,4 +112,17 @@ a.desc:after {
 
 .nav > li > form > button.logout:focus {
     outline: none;
+}
+
+.createBtn {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+.btn-wrapp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.customWidth {
+    width: 165px;
 }
