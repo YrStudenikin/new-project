@@ -29,7 +29,6 @@ class ProductController extends Controller
 
         $model = new Product();
 
-
         if ($model->load(Yii::$app->request->post()) && $model->validate())  {
             $image = UploadedFile::getInstance($model, 'file');
             $model->file = $image;

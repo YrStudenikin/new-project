@@ -114,6 +114,11 @@ a.desc:after {
     outline: none;
 }
 
+.collapse,
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 .createBtn {
     padding-top: 0.5rem;
     padding-bottom: 2rem;
